@@ -1,5 +1,5 @@
 steps:
-  - label: "Flaky Test :train:"
+  - label: "Flaky Test :bell:"
     command: "script/test.sh"
     branches: "main"
     artifact_paths: "artifacts/*.txt"
