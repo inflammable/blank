@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir artefacts
-figlet ${BUILDKITE_COMMIT} > artefacts/commit.txt
+mkdir artifacts
+figlet ${BUILDKITE_COMMIT} > artifacts/commit.txt
 
 EXITCODE=0
 if ((RANDOM%2)); then EXITCODE=1; fi
