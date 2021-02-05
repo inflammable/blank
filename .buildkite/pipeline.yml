@@ -1,6 +1,6 @@
 steps:
     - command: "script/test.sh"
-      label: "Flaky Test :potato:"
+      label: "Flaky Test :banana:"
       branches: "main"
       artifact_paths: "artifacts/*.txt"
       timeout: 1
