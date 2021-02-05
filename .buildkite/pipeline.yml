@@ -1,6 +1,4 @@
 steps:
-  - label: ":pipeline: Pipeline upload"
-    command: buildkite-agent pipeline upload
   - label: "Flaky Test :train:"
     command: "script/test.sh"
     branches: "main"
